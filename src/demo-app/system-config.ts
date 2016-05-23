@@ -19,7 +19,8 @@ const components = [
   'sidenav',
   'slide-toggle',
   'tab-group',
-  'toolbar'
+  'toolbar',
+  'toggle',
 ];
 
 

@@ -171,9 +171,10 @@ export class MdToggleGroupMultiple {
 }
 
 @Component({
+  moduleId: module.id,
   selector: 'md-toggle',
-  templateUrl: './components/toggle/toggle.html',
-  styleUrls: ['./components/toggle/toggle.css'],
+  templateUrl: 'toggle.html',
+  styleUrls: ['toggle.css'],
   encapsulation: ViewEncapsulation.None
 })
 export class MdToggle implements OnInit {
